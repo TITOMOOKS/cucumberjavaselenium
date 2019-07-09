@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-08T20:49:03.503Z",
+        "line": 3,
+        "name": "user order burger from Tom\u0027s Sandwich",
+        "description": "",
+        "id": "place-an-order-in-tom-s-sandwich;user-order-burger-from-tom-s-sandwich",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6499454250,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able to open the website",
+            "match": {
+              "location": "orderNowPage_steps.user_should_be_able_to_open_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187339310,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should able to click to order now",
+            "match": {
+              "location": "orderNowPage_steps.user_should_able_to_click_to_order_now()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154234290,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks the check box edison burger",
+            "match": {
+              "location": "orderNowPage_steps.user_clicks_the_check_box_edison_burger()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126963368,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to add to cart",
+            "match": {
+              "location": "orderNowPage_steps.user_should_be_able_to_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111196817,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to check out",
+            "match": {
+              "location": "orderNowPage_steps.user_should_be_able_to_check_out()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223667907,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should enter the name and email",
+            "match": {
+              "location": "orderNowPage_steps.user_should_enter_the_name_and_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163329071,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be able to submit",
+            "match": {
+              "location": "orderNowPage_steps.user_should_be_able_to_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39166102,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "thank you note should be displayed",
+            "match": {
+              "location": "orderNowPage_steps.thank_you_note_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 803873424,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see confirmation number and total amount on the screen",
+            "match": {
+              "location": "orderNowPage_steps.user_should_see_confirmation_number_and_total_amount_on_the_screen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@order01"
+          }
+        ]
+      }
+    ],
+    "name": "Place an order in Tom\u0027s Sandwich",
+    "description": "",
+    "id": "place-an-order-in-tom-s-sandwich",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/order.feature",
+    "tags": []
+  }
+]
